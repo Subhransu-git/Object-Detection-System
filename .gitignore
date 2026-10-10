@@ -1,0 +1,22 @@
+# Python environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
+
+# Model weights - exclude large files from ordinary Git
+*.weights
+*.pt
+*.onnx
